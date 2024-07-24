@@ -7,7 +7,7 @@ namespace UI {
     public class DisplayUI : MonoBehaviour {
 
         private const string X = "X";
-        private const string WAVE = "Wave";
+        private const string WAVE = "波";
 
         [SerializeField] private TextMeshProUGUI waveCounterTv;
         [SerializeField] private TextMeshProUGUI moneyTv;
