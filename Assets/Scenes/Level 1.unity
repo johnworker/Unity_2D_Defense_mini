@@ -10422,6 +10422,7 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 48969561}
+<<<<<<< HEAD
     - target: {fileID: 332558574, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
       propertyPath: m_fontAsset
       value: 
@@ -10526,6 +10527,8 @@ PrefabInstance:
       propertyPath: m_HorizontalAlignment
       value: 4
       objectReference: {fileID: 0}
+=======
+>>>>>>> a2cebb862e6720b6a502e40d008c4869b583c42b
     - target: {fileID: 806391790, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
       propertyPath: m_text
       value: "\u5546\u5E97"
@@ -10578,6 +10581,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1017135571, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
+=======
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017135571, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+>>>>>>> a2cebb862e6720b6a502e40d008c4869b583c42b
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1017135571, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
@@ -10700,6 +10710,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1532962873, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
+=======
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532962873, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+>>>>>>> a2cebb862e6720b6a502e40d008c4869b583c42b
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1532962873, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
@@ -10814,6 +10831,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1820036970, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
+=======
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820036970, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+>>>>>>> a2cebb862e6720b6a502e40d008c4869b583c42b
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1820036970, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
@@ -10896,6 +10920,7 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 2091863101, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
       propertyPath: m_fontAsset
       value: 
@@ -10922,6 +10947,8 @@ PrefabInstance:
       propertyPath: m_HorizontalAlignment
       value: 4
       objectReference: {fileID: 0}
+=======
+>>>>>>> a2cebb862e6720b6a502e40d008c4869b583c42b
     - target: {fileID: 2100118890, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -10946,6 +10973,7 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 2596063447843613133, guid: 4365b6ea1e1760c438b11235e52d9dd5,
         type: 3}
       propertyPath: m_fontAsset
@@ -10983,6 +11011,13 @@ PrefabInstance:
       propertyPath: m_text
       value: "\u9632\u79A6\u8005"
       objectReference: {fileID: 0}
+=======
+    - target: {fileID: 2880246385371043406, guid: 4365b6ea1e1760c438b11235e52d9dd5,
+        type: 3}
+      propertyPath: m_text
+      value: "\u9632\u79A6\u8005"
+      objectReference: {fileID: 0}
+>>>>>>> a2cebb862e6720b6a502e40d008c4869b583c42b
     - target: {fileID: 2880246385371043406, guid: 4365b6ea1e1760c438b11235e52d9dd5,
         type: 3}
       propertyPath: m_fontSize
@@ -11167,6 +11202,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 4532070917665086370, guid: 4365b6ea1e1760c438b11235e52d9dd5,
         type: 3}
       propertyPath: m_fontAsset
@@ -11201,6 +11237,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7364580185496729192, guid: 4365b6ea1e1760c438b11235e52d9dd5,
         type: 3}
+=======
+    - target: {fileID: 7364580185496729192, guid: 4365b6ea1e1760c438b11235e52d9dd5,
+        type: 3}
+>>>>>>> a2cebb862e6720b6a502e40d008c4869b583c42b
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
@@ -11553,11 +11593,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 7564758138602586120, guid: 4360d093beda43b4caf4e788a6196846,
         type: 3}
       propertyPath: m_text
       value: "\u4E0B\u4E00\u95DC"
       objectReference: {fileID: 0}
+=======
+>>>>>>> a2cebb862e6720b6a502e40d008c4869b583c42b
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4360d093beda43b4caf4e788a6196846, type: 3}
 --- !u!224 &7564758137622243952 stripped
@@ -11683,11 +11726,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 7781476895327919302, guid: 6ee45b1defba1524cbd0fdf567e67874,
         type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 1
       objectReference: {fileID: 0}
+=======
+>>>>>>> a2cebb862e6720b6a502e40d008c4869b583c42b
     - target: {fileID: 7781476895781356283, guid: 6ee45b1defba1524cbd0fdf567e67874,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -11938,6 +11984,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 9191128757218975445, guid: 62bdb524deb9b3a41befb3d71e84240e,
         type: 3}
       propertyPath: m_text
@@ -11954,6 +12001,8 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 1
       objectReference: {fileID: 0}
+=======
+>>>>>>> a2cebb862e6720b6a502e40d008c4869b583c42b
     - target: {fileID: 9191128757256144068, guid: 62bdb524deb9b3a41befb3d71e84240e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
