@@ -11275,7 +11275,7 @@ PrefabInstance:
     - target: {fileID: 6371264526422360774, guid: cf59e2e4a5f06d34f8bf7e79e2410e78,
         type: 3}
       propertyPath: m_text
-      value: "\u6700\u5F8C\u4E00\u6CE2"
+      value: "\u4E0B\u4E00\u6CE2"
       objectReference: {fileID: 0}
     - target: {fileID: 6371264526422360774, guid: cf59e2e4a5f06d34f8bf7e79e2410e78,
         type: 3}

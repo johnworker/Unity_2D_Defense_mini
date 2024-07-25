@@ -137,8 +137,7 @@ MonoBehaviour:
   fireRate: 0.5
   projectilePrefab: {fileID: 5450492967892128645, guid: 210f8e6f5eca338428ba9c9dd74efa4c,
     type: 3}
-  firePoint: {fileID: 6961420047587036956, guid: ba66c39f7dd164d46ad68bbfde5894ee,
-    type: 3}
+  firePoint: {fileID: 6997433303010238091}
 --- !u!1 &6997433303010238090
 GameObject:
   m_ObjectHideFlags: 0
