@@ -10706,17 +10706,17 @@ PrefabInstance:
     - target: {fileID: 1532962875, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
       propertyPath: towerPrefab
       value: 
-      objectReference: {fileID: 6997433302908061965, guid: ab54c5ad53fe7db499a5ed7806c95f49,
+      objectReference: {fileID: 5055157691145131014, guid: ab54c5ad53fe7db499a5ed7806c95f49,
         type: 3}
     - target: {fileID: 1532962877, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 6997433302908061965, guid: ab54c5ad53fe7db499a5ed7806c95f49,
+      objectReference: {fileID: 5055157691145131014, guid: ab54c5ad53fe7db499a5ed7806c95f49,
         type: 3}
     - target: {fileID: 1532962878, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 931a87ac77f4298439fd28c75d09ce25,
+      objectReference: {fileID: 21300000, guid: d00cb1dd85ffcfd429d95871add99208,
         type: 3}
     - target: {fileID: 1658277575, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
       propertyPath: m_fontAsset
@@ -10948,6 +10948,16 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2100118892, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 552272299195978063, guid: 711e1a1bed9cedc4c9c33837b7d7f5b3,
+        type: 3}
+    - target: {fileID: 2100118893, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 28d6e18a9cfa339468def2a7803d15cd,
+        type: 3}
     - target: {fileID: 2596063447843613133, guid: 4365b6ea1e1760c438b11235e52d9dd5,
         type: 3}
       propertyPath: m_fontAsset
@@ -11231,6 +11241,12 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7665867543526548152, guid: 4365b6ea1e1760c438b11235e52d9dd5,
+        type: 3}
+      propertyPath: towerPrefab
+      value: 
+      objectReference: {fileID: 552272299195978063, guid: 711e1a1bed9cedc4c9c33837b7d7f5b3,
+        type: 3}
     - target: {fileID: 8430807852263410057, guid: 4365b6ea1e1760c438b11235e52d9dd5,
         type: 3}
       propertyPath: m_fontAsset
