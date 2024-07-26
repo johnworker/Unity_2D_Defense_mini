@@ -11433,9 +11433,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 93056885, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 95facd27094fe2d479405088fa3f9af4,
+        type: 3}
+    - target: {fileID: 93056885, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 303cf6e65c4a09445afdb0fd0dd3bcec,
+        type: 3}
+    - target: {fileID: 93056885, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 48969561}
+    - target: {fileID: 93056886, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 796ff28615cdfe141bb25da0ce0d7fde,
+        type: 3}
     - target: {fileID: 332558574, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
       propertyPath: m_fontAsset
       value: 
@@ -11946,6 +11961,11 @@ PrefabInstance:
       propertyPath: m_HorizontalAlignment
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1978083915, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b47461a9e7c3b1a49b434c1337057896,
+        type: 3}
     - target: {fileID: 1994035696, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
       propertyPath: m_fontAsset
       value: 
@@ -12336,6 +12356,12 @@ PrefabInstance:
       propertyPath: m_HorizontalAlignment
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5130315624997963422, guid: 4365b6ea1e1760c438b11235e52d9dd5,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f4b69e9dfb41dd74891d030f29d4d486,
+        type: 3}
     - target: {fileID: 6220356776733523833, guid: 4365b6ea1e1760c438b11235e52d9dd5,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
