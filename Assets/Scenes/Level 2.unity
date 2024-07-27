@@ -134,7 +134,7 @@ PrefabInstance:
     - target: {fileID: 6371264526422360774, guid: cf59e2e4a5f06d34f8bf7e79e2410e78,
         type: 3}
       propertyPath: m_text
-      value: "\u4E0B\u4E00\u6CE2"
+      value: "\u9019\u6CE2\u7D50\u675F"
       objectReference: {fileID: 0}
     - target: {fileID: 6371264526422360774, guid: cf59e2e4a5f06d34f8bf7e79e2410e78,
         type: 3}
@@ -4496,6 +4496,22 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SellTowerOn
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781476896704805247, guid: 6ee45b1defba1524cbd0fdf567e67874,
+        type: 3}
+      propertyPath: m_text
+      value: "\u8CE3\u51FA"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781476896704805247, guid: 6ee45b1defba1524cbd0fdf567e67874,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 87b62496aeff58f418ff92ddd899f337,
+        type: 2}
+    - target: {fileID: 7781476896704805247, guid: 6ee45b1defba1524cbd0fdf567e67874,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ee45b1defba1524cbd0fdf567e67874, type: 3}
