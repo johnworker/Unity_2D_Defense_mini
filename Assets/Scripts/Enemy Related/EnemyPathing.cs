@@ -9,6 +9,7 @@ namespace Enemy_Related {
         private List<Transform> _wayPoints;
         private Transform _target;
         private int _pathIndex = 0;
+        private Vector3 _lastPosition;
 
         private GameManager _gameManager;
         private DamageDealer _damageDealer;
@@ -23,6 +24,7 @@ namespace Enemy_Related {
         // Start is called before the first frame update
         void Start() {
             _target = _wayPoints[_pathIndex]; //first waypoint in the list
+            _lastPosition = transform.position;
         }
 
         // Update is called once per frame
@@ -34,14 +36,32 @@ namespace Enemy_Related {
             if (_pathIndex < _wayPoints.Count) {
                 //move towards the point
                 _target = _wayPoints[_pathIndex];
+                Vector3 currentPosition = transform.position;
                 transform.position = Vector2.MoveTowards(transform.position, _target.position,
                     _enemy.GetMoveSpeed() * Time.deltaTime);
+                UpdateRotation(currentPosition);
                 CheckDistanceToNextPoint();
             }
             else {
                 _gameManager.TakeDamage(_damageDealer.GetDamage()); //player health goes down
                 _enemy.Die();
             }
+        }
+
+        private void UpdateRotation(Vector3 currentPosition)
+        {
+            Vector3 direction = currentPosition - _lastPosition;
+            if (direction.x > 0)
+            {
+                // Moving right
+                transform.rotation = Quaternion.Euler(0, 0, 0);
+            }
+            else if (direction.x < 0)
+            {
+                // Moving left
+                transform.rotation = Quaternion.Euler(0, 180, 0);
+            }
+            _lastPosition = currentPosition;
         }
 
         private void CheckDistanceToNextPoint() {
