@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8757155134594099149}
   - component: {fileID: 8757155134594099150}
   - component: {fileID: 8757155134594099151}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ghost_fly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -207,6 +207,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8757155134594099144}
     m_Modifications:
+    - target: {fileID: 3751120842502932216, guid: a5d993888a5251a46bb03c9377d09801,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3751120842502932217, guid: a5d993888a5251a46bb03c9377d09801,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -221,6 +226,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Value
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3751120843016768557, guid: a5d993888a5251a46bb03c9377d09801,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3751120843065970385, guid: a5d993888a5251a46bb03c9377d09801,
         type: 3}
@@ -351,6 +361,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Health Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3751120843065970399, guid: a5d993888a5251a46bb03c9377d09801,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3751120843235542012, guid: a5d993888a5251a46bb03c9377d09801,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3751120843652139971, guid: a5d993888a5251a46bb03c9377d09801,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3751120843652139972, guid: a5d993888a5251a46bb03c9377d09801,
         type: 3}
