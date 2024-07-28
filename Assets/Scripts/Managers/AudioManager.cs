@@ -36,20 +36,20 @@ namespace Managers {
             _audioSource.mute = !Preferences.GetToggleSfx();
         }
 
-        public void PlayEnemyHitSfx() => _audioSource.PlayOneShot(enemyHitSound,0.12f);
+        public void PlayEnemyHitSfx() => _audioSource.PlayOneShot(enemyHitSound,0.75f);
 
-        public void PlayEnemyDeathSfx() => _audioSource.PlayOneShot(enemyDeathSound,0.15f);
+        public void PlayEnemyDeathSfx() => _audioSource.PlayOneShot(enemyDeathSound,0.5f);
 
-        public void PlayPlayerHitSfx() => _audioSource.PlayOneShot(playerHitSound,0.8f);
+        public void PlayPlayerHitSfx() => _audioSource.PlayOneShot(playerHitSound,1.2f);
 
-        public void PlayPlayerDeathSfx() => _audioSource.PlayOneShot(playerDeathSound,1f);
+        public void PlayPlayerDeathSfx() => _audioSource.PlayOneShot(playerDeathSound,1.5f);
 
-        public void PlayTowerDownSfx() => _audioSource.PlayOneShot(towerPlacedSound,0.5f);
+        public void PlayTowerDownSfx() => _audioSource.PlayOneShot(towerPlacedSound,0.8f);
 
-        public void PlayTowerSoldSfx() => _audioSource.PlayOneShot(towerSoldSound,0.5f);
+        public void PlayTowerSoldSfx() => _audioSource.PlayOneShot(towerSoldSound,0.8f);
 
-        public void PlayTowerSelectedSfx() => _audioSource.PlayOneShot(towerSelectedSound, 0.5f);
+        public void PlayTowerSelectedSfx() => _audioSource.PlayOneShot(towerSelectedSound, 0.8f);
 
-        public void PlayTowerHoverSfx() => _audioSource.PlayOneShot(towerHoverSound,0.2f);
+        public void PlayTowerHoverSfx() => _audioSource.PlayOneShot(towerHoverSound,0.5f);
     }
 }

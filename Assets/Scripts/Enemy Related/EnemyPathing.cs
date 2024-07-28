@@ -10,6 +10,8 @@ namespace Enemy_Related {
         private Transform _target;
         private int _pathIndex = 0;
         private Vector3 _lastPosition;
+        public Transform _healthCanvasTransform;
+        private Quaternion _healthCanvasInitialRotation;
 
         private GameManager _gameManager;
         private DamageDealer _damageDealer;
@@ -19,6 +21,11 @@ namespace Enemy_Related {
             _damageDealer = GetComponent<DamageDealer>();
             _enemy = GetComponent<Enemy>();
             _wayPoints = FindObjectOfType<Path>().GetPath();
+            _healthCanvasTransform = transform.Find("Health Canvas"); // 獲取Health Canvas變換
+            if (_healthCanvasTransform != null)
+            {
+                _healthCanvasInitialRotation = _healthCanvasTransform.localRotation; // 保存Health Canvas的初始旋轉
+            }
         }
 
         // Start is called before the first frame update
@@ -60,6 +67,11 @@ namespace Enemy_Related {
             {
                 // Moving left
                 transform.rotation = Quaternion.Euler(0, 180, 0);
+            }
+            // 恢復Health Canvas的旋轉
+            if (_healthCanvasTransform != null)
+            {
+                _healthCanvasTransform.rotation = Quaternion.Euler(0, 0, 0);
             }
             _lastPosition = currentPosition;
         }

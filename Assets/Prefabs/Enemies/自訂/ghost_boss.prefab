@@ -140,6 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 695d3f5ca997f2644abcde9eb02accf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _healthCanvasTransform: {fileID: 5714314189343070320}
 --- !u!61 &2187807755472569236
 BoxCollider2D:
   m_ObjectHideFlags: 0
