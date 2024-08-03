@@ -1454,7 +1454,7 @@ PrefabInstance:
     - target: {fileID: 1302657826, guid: 0706d6189daded1489a0201296064e39, type: 3}
       propertyPath: easyEnemies.Array.data[3]
       value: 
-      objectReference: {fileID: 780650392990987884, guid: 582601a7537e26f4fb551430b14dcac0,
+      objectReference: {fileID: 3803326493560219115, guid: 0df195d31c240e545b9f488ce44d381b,
         type: 3}
     - target: {fileID: 1302657826, guid: 0706d6189daded1489a0201296064e39, type: 3}
       propertyPath: easyEnemies.Array.data[4]
@@ -1546,6 +1546,12 @@ PrefabInstance:
       propertyPath: startingWave
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8283843890639494741, guid: 0706d6189daded1489a0201296064e39,
+        type: 3}
+      propertyPath: spawnEffectPrefab
+      value: 
+      objectReference: {fileID: 162442314048394261, guid: bcf442327135f184487b08c20980c437,
+        type: 3}
     - target: {fileID: 8283843890639494742, guid: 0706d6189daded1489a0201296064e39,
         type: 3}
       propertyPath: m_RootOrder
